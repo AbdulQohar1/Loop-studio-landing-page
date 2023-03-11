@@ -1,0 +1,16 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url("images/desktop/image-hero.jpg");
+    padding: 2rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.loopstudios{
+   
+}
