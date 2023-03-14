@@ -108,3 +108,41 @@ header{
     margin: 1rem auto 2.5rem auto;
 }
 
+footer{
+    background-color: #000;
+    padding: 30px 0;
+    color: #fff;
+}
+
+.main-footer, .mini-footer{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    
+    
+}
+
+.fab{
+    padding: 0 5px;
+}
+
+.fab:hover{
+    text-decoration: underline;
+    transition: 3s;
+    color: hsla(0, 4%, 77%, 0.905);
+    cursor: pointer;
+}
+
+.details{
+    /* padding-right: 4px; */
+    padding: 6px;
+}
+
+.details:hover{
+ text-decoration: underline;
+ cursor: pointer;
+ /* padding-bottom: 2px;  */
+}
