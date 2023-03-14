@@ -137,12 +137,14 @@ footer{
 }
 
 .details{
-    /* padding-right: 4px; */
     padding: 6px;
 }
 
 .details:hover{
  text-decoration: underline;
  cursor: pointer;
- /* padding-bottom: 2px;  */
+}
+
+.copyright{
+    opacity: 0.6;
 }
