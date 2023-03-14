@@ -42,9 +42,10 @@ header{
     padding: 2rem;
     font-size: 60px;
 } 
+
 .virtual-reality{
     display: flex;
-    width: 80%;
+    /* width: 80%; */
     padding: 5rem 9rem;
     /* padding: 5rem 6rem; */
 }
@@ -62,7 +63,7 @@ header{
     right: 8rem;
     background-color: white !important;
     position: relative;
-    padding: 3.5rem 0 0 4rem;
+    padding: 3.5rem 0.5rem 0 4rem;
    
    
 }
@@ -82,8 +83,9 @@ header{
     align-items: center;
     width: 80%;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 1.5em;
 }
+
 
 .creations{
     font-size: 30px;
@@ -101,7 +103,8 @@ header{
     width: 80%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 25px;
+    gap: 15px;
     padding: 0 2rem;
+    margin: 1rem auto 2.5rem auto;
 }
 
