@@ -40,7 +40,7 @@ header{
  .immersive{
     border: 2px solid #fff;
     padding: 2rem;
-    font-size: 60px;
+    font-size: 55px;
 } 
 
 .virtual-reality{
@@ -105,7 +105,7 @@ header{
     grid-template-columns: repeat(4, 1fr);
     gap: 15px;
     padding: 0 2rem;
-    margin: 1rem auto 2.5rem auto;
+    margin: 1rem auto 5.5rem auto;
 }
 
 footer{
@@ -147,4 +147,31 @@ footer{
 
 .copyright{
     opacity: 0.6;
+}
+
+@media screen and (max-width: 980px) {
+    body{
+        width: 80%;
+        margin: 0 auto;
+    }
+/* 
+    header{
+        width: 70%;
+    } */
+
+    .loop{
+        font-size: 20px;
+        padding-left: 40px;
+    }
+    .mini-header{
+        width: 70%;
+        padding: 0 2rem;
+    }
+
+    .immersive{
+        display: block;
+        width: 100%;
+        font-size: 50px;
+        
+    }
 }
